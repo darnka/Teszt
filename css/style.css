@@ -1,0 +1,268 @@
+@font-face {
+  font-family:"Montserrat-Regular";
+  src: url("/css/fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family:"Caveat-Regular";
+  src: url("/css/fonts/Caveat/static/Caveat-Regular.ttf");
+}
+
+@font-face {
+  font-family:"CinzelDecorative-Bold";
+  src: url("/css/fonts/Cinzel_Decorative/CinzelDecorative-Bold.ttf");
+}
+
+@font-face {
+  font-family:"CinzelDecorative-Black";
+  src: url("/css/fonts/Cinzel_Decorative/CinzelDecorative-Black.ttf");
+}
+
+body{
+  background-color:#efe9f3;
+}
+
+h1{
+  font-family:"CinzelDecorative-Black", serif; 
+  color:black; 
+}
+
+h2{
+  font-family:"CinzelDecorative-Bold", serif; 
+  color:black; 
+}
+
+h3, h4, h5, h6{
+  font-family:"Montserrat-Black", sans-serif;
+  color:black;
+}
+
+h6{
+  font-family:"Montserrat-Regular", sans-serif; 
+  font-size: smaller;
+  font-variant: small-caps; 
+}
+
+p{
+  font-family:"Montserrat-Regular", sans-serif; 
+  color:#585757;
+}
+
+nav{
+  background-color: #00787f;
+}
+
+nav ul{
+  font-family:"Montserrat-Regular", sans-serif;
+  letter-spacing: 1px;
+  font-variant:small-caps;
+}
+
+table{
+  border: solid 1px;
+}
+
+details > summary {
+  font-variant: small-caps;
+  width: 100%;
+  height: 60px;
+  padding-top: 20px;
+  background-color: #efe9f3;
+  box-shadow: 
+  inset 5px 5px 10px rgb(226, 223, 223),
+  inset -5px -5px 10px #6e80a5;
+}
+
+details > p{
+  padding: 4px;
+  text-indent: 20px; 
+}
+
+.irott{
+  font-family:"Caveat-Regular", serif;
+  font-size:x-large;
+  color:#0273fc;
+}
+
+#kozerdeku{
+  background-color: #f9f6fa;
+}
+
+.div-background{
+  background-color:#ffffff;
+}
+
+.table-info{
+  background-color:#5df1e5;
+}
+
+.navbar-brand{
+  font-family:"CinzelDecorative-Black", serif; 
+  font-size: 2.3vw;
+  letter-spacing: 5px;
+  color:white;
+}
+
+.navbar a:hover {
+  background-color: #03868d;  
+}
+.dropdown-menu{
+  border: solid 1px #00787f;
+  background-color: #00787f;
+}
+
+.card-header{
+  background-color: #f3eefc;
+}
+.card-footer{
+  background-color: #f3eefc;
+}
+
+.card{
+  border-radius: 2%;
+}
+.btn-success{
+  background-color: #00787f;
+  border: solid 1px white;
+}
+
+.btn-light{
+  background-color: #efe9f3;
+  color: black;
+  text-shadow: -1px -1px 1px white, 1px 1px 5px #54445e; 
+  border-radius: 0px;
+  border: solid 1px rgb(226, 223, 223);
+  box-shadow: 
+  inset 5px 5px 10px rgb(226, 223, 223),
+  inset -5px -5px 10px #7585a7;
+}
+
+.btn-light:hover {
+  background-color: #efe9f3;
+  color: black;
+  border: solid 1px #00787f;
+  box-shadow: 
+  inset 5px 5px 10px white, 
+  inset -3px -3px 10px #8e99af;
+}
+
+.btn-outline-light{
+  background-color: white;
+  color: black;
+  border: solid 1px #00787f;
+  border-radius: 0px;
+  box-shadow: 
+  inset 5px 5px 10px white, 
+  inset -3px -3px 10px #8e99af;  
+}
+
+.btn-outline-light:hover {
+  background-color: #efe9f3;
+  color: black;
+  border: solid 1px #00787f;
+  box-shadow: 
+  inset 5px 5px 10px white, 
+  inset -3px -3px 10px #8e99af;
+}
+.szines{
+  
+    background-image: linear-gradient(120deg, #b49dff 0%, #5df1e5 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 85%;  
+}
+
+/* CHAT w3 */ 
+  
+.chat_ablak {
+    border: 2px solid #5df1e5;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0; 
+}
+
+   
+.valasz {
+    border-color: #b49dff;
+    background-color: #eeebfd;
+}
+    
+.chat_ablak::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+  
+.chat_ablak img {
+    float: left;
+    max-width: 60px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 60%;
+}
+    
+.chat_ablak img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+}
+  
+.time-right {
+    float: right;
+    color: #0c478f;
+}
+  
+.time-left {
+    float: left;
+    color: #0c478f;
+}
+
+.input:focus {
+    box-shadow: 2px 2px 3px rgb(7, 148, 49);
+}
+
+/* KÉPRÁCS */
+#kepracs{
+  width: 100%;
+  grid-gap: 50px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap; 
+  flex-wrap: wrap; 
+}
+
+.column {
+  -ms-flex: 25%;
+  flex: 25%;
+  max-width: 25%; 
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
